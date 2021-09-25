@@ -9,7 +9,7 @@ import {
     NavLinks,
 
 } from './navbar-styles'
-import Logo from  '../../assets/54_-_logo.jpg'
+import Logo from  '../../assets/nu_logo.png'
 import {GiShoppingCart} from 'react-icons/gi'
 
 const Navbar = () => {
@@ -19,7 +19,7 @@ const Navbar = () => {
         <Nav>
             <NavbarContainer>
                 <LogoContainer>
-                    <img src="https://upload.wikimedia.org/wikipedia/en/a/a2/National_University_seal.png" alt="Logo" ></img>
+                    <img src={Logo} alt="Logo" ></img>
                     <div className="logo-name">
                         <span>NU INNOVATION TECH HUB<br/><font color="#F8D024">Center for Innovation and Entrepreneurship</font></span>
                     </div>
@@ -32,7 +32,7 @@ const Navbar = () => {
                         <NavLinks exact to="/">Innovators</NavLinks>
                     </NavItem>
                     <NavItem>
-                        <NavLinks exact to="/" >Exibit </NavLinks>
+                        <NavLinks exact to="/" >Exhibit </NavLinks>
                     </NavItem>
                     <NavItem>
                         <NavLinks exact to="/" >About Us</NavLinks>

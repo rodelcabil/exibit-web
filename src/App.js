@@ -2,7 +2,7 @@
 import './App.css';
 
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import MainExibitPage from './pages/Main-Exibit-Page/main-exibit-page';
+import MainExhibitPage from './pages/Main-Exhibit-Page/main-exhibit-page';
 import GlobalStyles from './globalStyles'
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
     <Router>
         <GlobalStyles/>
         <Switch>
-          <Route path='/' component={MainExibitPage} />
+          <Route path='/' component={MainExhibitPage} />
         </Switch>
     </Router>
   );
