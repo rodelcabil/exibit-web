@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import './App.css';
 
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
@@ -10,7 +10,7 @@ function App() {
     <Router>
         <GlobalStyles/>
         <Switch>
-          <Route path='/exibit' component={MainExibitPage} />
+          <Route path='/' component={MainExibitPage} />
         </Switch>
     </Router>
   );
