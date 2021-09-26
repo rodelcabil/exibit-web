@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import banner from '../../assets/NU-fast-facts.jpg'
 
-export const ExibitContainer = styled.div`
+export const ExhibitContainer = styled.div`
    
     background: #fff;
 

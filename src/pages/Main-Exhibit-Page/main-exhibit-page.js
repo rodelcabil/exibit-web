@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from '../../components/Navbar/navbar'
+import Footer from '../../components/Footer/footer'
 
 import {
     ExibitContainer,
@@ -11,7 +12,7 @@ import {
 } from './main-exhibit-sytles'
 const MainExhibitPage = () => {
     return (
-        <ExibitContainer>
+        <ExhibitContainer>
             <Navbar/>
             <Banner>
                 <h1>Exhibit</h1>
@@ -37,6 +38,8 @@ const MainExhibitPage = () => {
                <p>gago</p>
                
             </SortContainer>
+            <Footer/>
+            
         
         </ExibitContainer>
     )
