@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import banner from '../../assets/NU-fast-facts.jpg'
+
 export const ExibitContainer = styled.div`
    
     background: #fff;
@@ -41,3 +42,74 @@ export const Banner = styled.div`
    }
 `;
 
+export const DescriptionContainer = styled.div`
+   display: flex;
+   width: 100%;
+   padding: 10px 20px;
+   background: #fff;
+   
+`;
+
+export const Result = styled.div`
+   display: flex;
+   flex-direction: column;
+   align-items: left;
+   justify-content: center;
+   width: 100%;
+   max-width: 200px;
+   background: #fff;
+   padding: 10px ;
+   
+   h1{
+       color: #30408D;
+       font-weight: 700;
+   }
+   span{
+       font-weight: 100;
+   }
+`;
+
+export const Description = styled.div`
+   display: flex;
+   width: 100%;
+   background: #F0EBEB;
+   align-items: center;
+   justify-content: center
+   ;
+
+   span{
+    font-weight: 100;
+   }
+   
+`;
+
+export const SortContainer = styled.div`
+   display: flex;
+   width: 100%;
+   background: #F0EBEB;
+   align-items: center;
+   justify-content: space-between;
+   padding: 10px 30px;
+
+   .sort-wrapper{
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       
+
+       span{
+           font-size: 20px;
+           font-weight: 100;
+           margin-right: 10px
+           
+       }
+
+       .select_dd{
+           padding: 10px;
+           border: 0px;
+           font-size: 20px;
+           color: #30408D;
+       }
+   }
+   
+`;
