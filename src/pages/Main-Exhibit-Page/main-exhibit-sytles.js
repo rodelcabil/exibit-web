@@ -4,6 +4,7 @@ import banner from '../../assets/NU-fast-facts.jpg'
 export const ExhibitContainer = styled.div`
    
     background: #fff;
+    height: auto;
 
     @media screen and (max-width: 600px){
         padding-left: 0;
