@@ -110,7 +110,24 @@ export const SortContainer = styled.div`
            border: 0px;
            font-size: 20px;
            color: #30408D;
+           outline: none;
        }
+   }
+   
+`;
+
+export const ItemsContainer = styled.div`
+   display: flex;
+   width: 100%;
+   background: #fff;
+   align-items: center;
+   justify-content: left;
+   flex-wrap: wrap;
+   padding: 30px 30px;
+   ;
+
+   span{
+    font-weight: 100;
    }
    
 `;

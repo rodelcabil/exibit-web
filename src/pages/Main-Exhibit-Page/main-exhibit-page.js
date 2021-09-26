@@ -8,8 +8,10 @@ import {
     DescriptionContainer,
     Result,
     Description,
-    SortContainer
+    SortContainer,
+    ItemsContainer
 } from './main-exhibit-sytles'
+import ExhibitCard from '../../components/ExhibitCard/exhibit-card'
 const MainExhibitPage = () => {
     return (
         <ExhibitContainer>
@@ -36,8 +38,11 @@ const MainExhibitPage = () => {
                 </select>
                </div>
                <p>gago</p>
-               
             </SortContainer>
+            <ItemsContainer>
+                <ExhibitCard/>
+            </ItemsContainer>
+
             <Footer/>
             
         
