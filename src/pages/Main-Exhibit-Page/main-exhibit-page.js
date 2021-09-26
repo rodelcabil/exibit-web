@@ -41,7 +41,7 @@ const MainExhibitPage = () => {
             <Footer/>
             
         
-        </ExibitContainer>
+        </ExhibitContainer>
     )
 }
 
