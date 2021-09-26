@@ -128,6 +128,7 @@ export const Pagination = styled.div`
         transition: background-color .3s;
         border: 1px solid #ddd;
         margin: 0 4px;
+        background-color: #fff;
     }
 
     a.active{
