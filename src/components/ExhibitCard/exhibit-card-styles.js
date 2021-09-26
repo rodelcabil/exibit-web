@@ -10,6 +10,7 @@ min-width: 300px;
 padding: 15px;
 border-radius: 5px;
 justify-content: space-between;
+margin: 5px;
 
 img{
     width: 250px;

@@ -41,6 +41,12 @@ const MainExhibitPage = () => {
             </SortContainer>
             <ItemsContainer>
                 <ExhibitCard/>
+                <ExhibitCard/>
+                <ExhibitCard/>
+                <ExhibitCard/>
+                <ExhibitCard/>
+                <ExhibitCard/>
+
             </ItemsContainer>
 
             <Footer/>

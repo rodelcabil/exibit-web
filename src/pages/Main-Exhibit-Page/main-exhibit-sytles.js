@@ -121,10 +121,10 @@ export const ItemsContainer = styled.div`
    width: 100%;
    background: #fff;
    align-items: center;
-   justify-content: left;
+   justify-content: center;
    flex-wrap: wrap;
-   padding: 30px 30px;
-   ;
+   padding: 30px;
+   
 
    span{
     font-weight: 100;
