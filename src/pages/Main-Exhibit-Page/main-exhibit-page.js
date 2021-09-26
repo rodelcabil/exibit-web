@@ -9,7 +9,8 @@ import {
     Result,
     Description,
     SortContainer,
-    ItemsContainer
+    ItemsContainer, 
+    Pagination
 } from './main-exhibit-sytles'
 import ExhibitCard from '../../components/ExhibitCard/exhibit-card'
 const MainExhibitPage = () => {
@@ -37,7 +38,13 @@ const MainExhibitPage = () => {
                     
                 </select>
                </div>
-               <p>gago</p>
+               <Pagination>
+               <a href="#">&laquo;</a>
+                <a href="#" class="active">1</a>
+                <a href="#" >2</a>
+               
+                <a href="#">&raquo;</a>
+               </Pagination>
             </SortContainer>
             <ItemsContainer>
                 <ExhibitCard/>

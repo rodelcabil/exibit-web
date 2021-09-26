@@ -116,6 +116,33 @@ export const SortContainer = styled.div`
    
 `;
 
+
+export const Pagination = styled.div`
+   display: inline-block;
+
+    a{
+        color: black;
+        float: left;
+        padding: 8px 16px;
+        text-decoration: none;
+        transition: background-color .3s;
+        border: 1px solid #ddd;
+        margin: 0 4px;
+    }
+
+    a.active{
+        background-color: #30408D;
+        color: white;
+       
+        
+    }
+
+    a:hover:not(.active) {
+        background-color: #ddd;
+    }
+   
+`;
+
 export const ItemsContainer = styled.div`
    display: flex;
    width: 100%;
