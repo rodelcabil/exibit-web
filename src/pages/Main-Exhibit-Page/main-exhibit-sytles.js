@@ -9,7 +9,6 @@ export const ExhibitContainer = styled.div`
     @media screen and (max-width: 600px){
         padding-left: 0;
     }
-   
 `;
 
 export const Banner = styled.div`
@@ -20,8 +19,10 @@ export const Banner = styled.div`
    background-clip: content-box;
    background-image: Linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(${banner});
    display: flex;
+   background-position-y: center;
    align-items: center;
    justify-content: center;
+   margin-top: 70px;
 
    h1{
        color: #fff;
@@ -91,6 +92,7 @@ export const SortContainer = styled.div`
    align-items: center;
    justify-content: space-between;
    padding: 10px 30px;
+  
 
    .sort-wrapper{
        display: flex;
